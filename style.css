@@ -1,2 +1,15 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box{
+	width: 200px;
+	height: 150px;
+	background: orange;
+	margin: 0 10px;
+	float: left;
+}
 
