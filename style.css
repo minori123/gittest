@@ -19,7 +19,11 @@ body{
 	background: #fff;
 }
 
-h1{
+.head{
+	width: 100%;
+	height: 500px;
+	background-image: url(./img/bg1.jpg);
+	background-size: cover;
 	//visibility: hidden;
 }
 
@@ -29,8 +33,8 @@ h1{
 }
 
 .box{
-	width: 20%;
-	height: 150px;
+	width: 23%;
+	height: 50px;
 	background: orange;
 	margin: 0 10px;
 	float: left;
