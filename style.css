@@ -9,13 +9,19 @@
   visibility:hidden;
 }
 
+body{
+	background: #ccc;
+}
+
 .container{
 	width: 90%;
 	margin: 0 auto;
+	background: #fff;
 }
 
 .boxes{
 	//display: inline-block;
+	margin: 10px auto;
 }
 
 .box{
@@ -24,5 +30,11 @@
 	background: orange;
 	margin: 0 10px;
 	float: left;
+}
+.article{
+	width: 95%;
+	margin: 0 auto;
+	border: 2px double #000;
+	border-radius: 10%;
 }
 
