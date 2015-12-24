@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .clearfix:after{
-content: "."; 
+	content: "."; 
   display: block; 
   height: 0; 
   font-size:0;	
@@ -12,6 +12,10 @@ content: ".";
 .container{
 	width: 90%;
 	margin: 0 auto;
+}
+
+.boxes{
+	//display: inline-block;
 }
 
 .box{
